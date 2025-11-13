@@ -1,0 +1,28 @@
+.peopleList{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.peopleList > *{
+    flex: 1 1 200px;
+    /* shrink grow basis ^^^ */
+
+    
+}
+.peopleListItem{
+    min-width: 250px;
+    margin: 1em;
+    padding-top: 1em;
+    border: 3px solid rgb(3, 59, 3);
+    border-radius: 15px;
+}
+.peopleListItem > div > img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;  /* Crops image to fit without distortion */
+    border-radius: 10px; /* Optional: makes corners rounded */
+    max-width: 150px;
+    cursor: pointer;
+}
+
+ 
