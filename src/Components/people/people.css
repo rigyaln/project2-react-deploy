@@ -19,8 +19,8 @@
 .peopleListItem > div > img{
     width: 150px;
     height: 150px;
-    object-fit: cover;  /* Crops image to fit without distortion */
-    border-radius: 10px; /* Optional: makes corners rounded */
+    object-fit: cover;   
+    border-radius: 10px;  
     max-width: 150px;
     cursor: pointer;
 }

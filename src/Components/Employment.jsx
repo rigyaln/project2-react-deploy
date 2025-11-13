@@ -22,7 +22,6 @@ const Employment = () => {
 
     return (
         <div className='Employment'>
-            {/* Introduction Section with Accordions */}
             <div className='degreeTypeTitle'>
                 <h2>{employmentObj.introduction.title}</h2>
             </div>
@@ -40,7 +39,6 @@ const Employment = () => {
 
             <br/>
 
-            {/* Degree Statistics as Carousel */}
             <div className='degreeTypeTitle'>
                 <h2>{employmentObj.degreeStatistics.title}</h2>
             </div>
@@ -68,12 +66,12 @@ const Employment = () => {
 
             <br/>
 
-            {/* Co-op Table */}
+            {/* CO-OP  Table using  css to add scorll function*/}
             <div className='degreeTypeTitle'>
                 <h2>{employmentObj.coopTable.title}</h2>
             </div>
             
-            <div className='scrollable-table'>
+            <div className='scrollable-table'> 
                 <Table striped bordered hover>
                     <thead>
                         <tr>
@@ -98,7 +96,6 @@ const Employment = () => {
 
             <br/>
 
-            {/* Employment Table */}
             <div className='degreeTypeTitle'>
                 <h2>{employmentObj.employmentTable.title}</h2>
             </div>
